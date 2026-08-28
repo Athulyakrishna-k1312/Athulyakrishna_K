@@ -10,12 +10,12 @@ export const profile = {
   location: 'Palakkad, Kerala, India',
   email: 'athulyakrishnaskp75@gmail.com',
   resumeUrl: '/resume/Athulyakrishna_K_Resume.pdf',
-  photo: '/src/assets/images/profile/profile.png',
+  photo: '/images/profile/profile.png',
   social: {
     github: 'https://github.com/Athulyakrishna-k1312',
     linkedin: 'https://www.linkedin.com/in/athulyakrishna-k-a176462a6',
     instagram: 'https://www.instagram.com/athulyam_?igsh=c3I3bWp5ZmE2ZW1i',
-    medium:'https://medium.com/@athulyakrishnaskp75'
+    medium: 'https://medium.com/@athulyakrishnaskp75',
   },
 }
 
@@ -31,9 +31,9 @@ export const navLinks = [
 
 export const about = {
   summary:
-  "I'm a final-year Information Technology student at Government Engineering College Palakkad, building toward a career in software engineering by combining strong academic foundations with hands-on, real-world projects. " +
-  "My work spans full-stack web development, AI/ML applications, and open-source contributions. I enjoy turning ideas into practical software solutions while continuously learning modern technologies and improving my problem-solving skills. " +
-  "I'm currently preparing for software engineering roles, with a focus on developing scalable applications, writing clean code, and creating meaningful user experiences.",
+    "I'm a final-year Information Technology student at Government Engineering College Palakkad, building toward a career in software engineering by combining strong academic foundations with hands-on, real-world projects. " +
+    'My work spans full-stack web development, AI/ML applications, and open-source contributions. I enjoy turning ideas into practical software solutions while continuously learning modern technologies and improving my problem-solving skills. ' +
+    "I'm currently preparing for software engineering roles, with a focus on developing scalable applications, writing clean code, and creating meaningful user experiences.",
   education: [
     {
       degree: 'B.Tech, Information Technology',
@@ -67,7 +67,7 @@ export const about = {
         'Driven by curiosity and continuous improvement, I enjoy learning through practical projects, exploring modern technologies, refining my problem-solving skills, and building software that prepares me for a successful software engineering career.',
       icon: 'learning',
     },
-  ]
+  ],
 }
 
 export const skills = {
@@ -120,11 +120,11 @@ export const projects = [
     title: 'AMLPS — School Bus Fee Management System',
     short:
       'A production school transport management platform used by a real institution, handling student records, fee tracking and route management.',
-    image: '/src/assets/images/projects/amlps-cover.jpg',
+    image: '/images/projects/amlps-cover.jpg',
     gallery: [
-      '/src/assets/images/projects/sbms.png',
-      '/src/assets/images/projects/sbms1.png',
-      '/src/assets/images/projects/sbms2.png',
+      '/images/projects/sbms.png',
+      '/images/projects/sbms1.png',
+      '/images/projects/sbms2.png',
     ],
     tech: ['React', 'Supabase', 'Tailwind CSS', 'Vercel'],
     features: [
@@ -143,12 +143,12 @@ export const projects = [
     title: 'AI-Based Image Transformation Platform',
     short:
       'A deep learning-based web application that transforms real-world images into Cartoon, Pencil Sketch, and Anime-style visuals using AI-powered image processing.',
-    image: '/src/assets/images/projects/image-transformation-cover.png',
+    image: '/images/projects/image-transformation-cover.png',
     gallery: [
-      '/src/assets/images/projects/cartoonify1.png',
-      '/src/assets/images/projects/cartoonify2.png',
-      '/src/assets/images/projects/cartoonify3.png',
-      '/src/assets/images/projects/cartoonify4.png',
+      '/images/projects/cartoonify1.png',
+      '/images/projects/cartoonify2.png',
+      '/images/projects/cartoonify3.png',
+      '/images/projects/cartoonify4.png',
     ],
     tech: ['Python', 'PyTorch', 'Flask', 'Computer Vision', 'MySQL'],
     features: [
@@ -167,17 +167,15 @@ export const projects = [
   },
   {
     id: 'blood-bank',
-    title: "Blood bank management System",
+    title: 'Blood Bank Management System',
     short:
       'A web-based blood bank management system designed to digitize donor, patient, doctor and blood stock records for efficient blood bank operations.',
-    image: '/src/assets/images/projects/bbms-cover.jpg',
+    image: '/images/projects/bbms-cover.jpg',
     gallery: [
-      '/src/assets/images/projects/bbms1.jpg',
-      '/src/assets/images/projects/bbms2.jpg',
-      '/src/assets/images/projects/bbms3.jpg',
-      '/src/assets/images/projects/bbms4.jpg',
-
-
+      '/images/projects/bbms1.jpg',
+      '/images/projects/bbms2.jpg',
+      '/images/projects/bbms3.jpg',
+      '/images/projects/bbms4.jpg',
     ],
     tech: ['PHP', 'MySQL', 'JavaScript', 'SQL', 'PhpMyAdmin'],
     features: [
@@ -187,9 +185,9 @@ export const projects = [
       'Admin-focused interface for managing blood bank operations',
     ],
     challenges:
-    'Designing a reliable database structure for managing interconnected donor, patient, doctor and blood stock records while keeping the system simple for administrators to use.',
+      'Designing a reliable database structure for managing interconnected donor, patient, doctor and blood stock records while keeping the system simple for administrators to use.',
     learnings:
-    'Strengthened my understanding of PHP-MySQL integration, database design, SQL queries, CRUD operations, and building data-driven web applications.',
+      'Strengthened my understanding of PHP-MySQL integration, database design, SQL queries, CRUD operations, and building data-driven web applications.',
     github: 'https://github.com/Anujakunniyarath/BBMS_Project',
     demo: '',
   },
@@ -198,21 +196,15 @@ export const projects = [
     title: 'VoltCloud — Smart Energy Monitoring Platform',
     short:
       'A cloud-based smart energy monitoring platform that collects, processes, and aggregates IoT energy data into real-time and historical analytics.',
-    image: '/src/assets/images/projects/voltcloud-cover.png',
+    image: '/images/projects/voltcloud-cover.png',
     gallery: [
-      '/src/assets/images/projects/voltcloud1.png',
-      '/src/assets/images/projects/voltcloud2.png',
-      '/src/assets/images/projects/voltcloud3.png',
-      '/src/assets/images/projects/voltcloud4.png',
-      '/src/assets/images/projects/voltcloud5.png',
+      '/images/projects/voltcloud1.png',
+      '/images/projects/voltcloud2.png',
+      '/images/projects/voltcloud3.png',
+      '/images/projects/voltcloud4.png',
+      '/images/projects/voltcloud5.png',
     ],
-    tech: [
-      'Node.js',
-      'Express.js',
-      'Firebase',
-      'Cloud Firestore',
-      'Cron Jobs',
-    ],
+    tech: ['Node.js', 'Express.js', 'Firebase', 'Cloud Firestore', 'Cron Jobs'],
     features: [
       'IoT energy data collection and cloud storage using Firestore',
       'Automated aggregation of energy readings into 15-minute, daily, and monthly analytics',
@@ -225,18 +217,17 @@ export const projects = [
       'Designing a reliable cloud data pipeline that could continuously process incoming IoT energy readings and efficiently generate multiple levels of aggregated analytics without manually processing the raw data.',
     learnings:
       'Deepened my understanding of cloud computing, Firebase Authentication and Firestore, REST API development with Node.js and Express.js, scheduled background jobs, and designing automated IoT data-processing pipelines.',
-    github:'https://github.com/Athulyakrishna-k1312/voltcloud',
-    demo:'',
+    github: 'https://github.com/Athulyakrishna-k1312/voltcloud',
+    demo: '',
   },
   {
     id: 'employee-salary-prediction',
     title: 'Employee Salary Prediction',
     short:
       'A machine learning-based web application that predicts employee salaries using experience, test scores, and interview performance.',
-    image: '/src/assets/images/projects/salary-prediction-cover.png',
+    image: '/images/projects/salary-prediction-cover.png',
     gallery: [
-      '/src/assets/images/projects/salary1.png',
-
+      '/images/projects/salary1.png',
     ],
     tech: ['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'Streamlit'],
     features: [
@@ -250,39 +241,38 @@ export const projects = [
       'Preparing the dataset and selecting relevant features to build a reliable regression model while integrating the trained model into an interactive web application.',
     learnings:
       'Gained practical experience in data preprocessing, feature engineering, regression modeling, model integration, and deploying machine learning applications with Streamlit.',
-      github:'https://github.com/Athulyakrishna-k1312/Employee-salary-prediction',
-      demo:'https://employee-salary-prediction-gzfqrblx2ekppf4xd2c5ff.streamlit.app/'
- },
+    github: 'https://github.com/Athulyakrishna-k1312/Employee-salary-prediction',
+    demo: 'https://employee-salary-prediction-gzfqrblx2ekppf4xd2c5ff.streamlit.app/',
+  },
 ]
 
 export const experience = [
-
   {
     company: 'SSOC',
-    logo: '/src/assets/images/companies/SSOC.png',
+    logo: '/images/companies/SSOC.png',
     role: 'Open Source Contributor',
     duration: '2026',
     description:
       'Contributed to SafeHaven, a crowdsourced disaster management platform, with 12 merged PRs covering UI improvements, feature development, and bug fixes. Worked on dashboards including Evacuation Safety and Disaster Coordination, while gaining hands-on experience with Git, GitHub, code reviews, merge conflicts, and collaborative open-source development.',
-    skills: ['Git','GitHub','HTML','Cascading Style Sheets (CSS)','Open Source Contribution','Code Review','JavaScript'],
+    skills: ['Git', 'GitHub', 'HTML', 'CSS', 'Open Source Contribution', 'Code Review', 'JavaScript'],
     certificateUrl: 'https://www.linkedin.com/in/athulyakrishna-k-a176462a6/overlay/Position/2995181562/treasury/?profileId=ACoAAEnHGjMBnSA6M2Py0IOv_qmOMV6Ndghs4o4',
     projectUrl: '',
   },
   {
     company: 'μLearn',
-    logo: '/src/assets/images/companies/μLearn.png',
+    logo: '/images/companies/μLearn.png',
     role: 'Media Team Member',
-    duration: '2025-2026',
+    duration: '2025 — 2026',
     description:
-      'Managed and supported μLearn’s social media presence by creating and coordinating content, promoting community activities and events, and contributing to digital outreach. Actively participated in collaborative learning and technical initiatives, developing skills in communication, teamwork, content management, and community engagement.',
+      "Managed and supported μLearn's social media presence by creating and coordinating content, promoting community activities and events, and contributing to digital outreach. Actively participated in collaborative learning and technical initiatives, developing skills in communication, teamwork, content management, and community engagement.",
     skills: ['Communication', 'Team Collaboration', 'Event Coordination', 'Time Management'],
     certificateUrl: 'https://www.linkedin.com/in/athulyakrishna-k-a176462a6/overlay/Position/2545588024/treasury/?profileId=ACoAAEnHGjMBnSA6M2Py0IOv_qmOMV6Ndghs4o4',
     projectUrl: '',
   },
   {
     company: 'Infosys Springboard',
-    logo: '/src/assets/images/companies/Infosys.png',
-    role: 'Python developer Intern',
+    logo: '/images/companies/Infosys.png',
+    role: 'Python Developer Intern',
     duration: '2025',
     description:
       'Built an AnimeGAN-based image stylization pipeline, exploring generative adversarial networks for style transfer on real images.',
@@ -292,7 +282,7 @@ export const experience = [
   },
   {
     company: 'Edunet Foundation × IBM SkillsBuild',
-    logo: '/src/assets/images/companies/edunet-ibm.png',
+    logo: '/images/companies/edunet-ibm.png',
     role: 'AI/ML Intern',
     duration: '2025',
     description:
@@ -303,7 +293,7 @@ export const experience = [
   },
   {
     company: 'QNAYDS',
-    logo: '/src/assets/images/companies/qnayds.png',
+    logo: '/images/companies/qnayds.png',
     role: 'Campus Ambassador',
     duration: '2024 — 2025',
     description:
@@ -312,7 +302,6 @@ export const experience = [
     certificateUrl: 'https://www.linkedin.com/in/athulyakrishna-k-a176462a6/overlay/Position/2499142715/treasury/?profileId=ACoAAEnHGjMBnSA6M2Py0IOv_qmOMV6Ndghs4o4',
     projectUrl: '',
   },
-
 ]
 
 export const certificates = [
@@ -320,28 +309,28 @@ export const certificates = [
     title: 'NPTEL Elite Certification',
     issuer: 'NPTEL',
     date: '2025',
-    image: '/src/assets/images/certificates/nptel.jpeg',
+    image: '/images/certificates/nptel.jpeg',
     url: '',
   },
   {
     title: 'AnimeGAN Image Stylization — Internship Certificate',
     issuer: 'Infosys Springboard',
     date: '2025',
-    image: '/src/assets/images/certificates/infosys.jpg',
+    image: '/images/certificates/infosys.jpg',
     url: '',
   },
   {
     title: 'Salary Prediction Pipeline — Internship Certificate',
     issuer: 'Edunet Foundation × IBM SkillsBuild',
     date: '2025',
-    image: '/src/assets/images/certificates/edunet-ibm.png',
+    image: '/images/certificates/edunet-ibm.png',
     url: '',
   },
   {
     title: 'Social Summer of Code — Contributor',
     issuer: 'SSOC',
     date: '2025',
-    image: '/src/assets/images/certificates/ssoc.jpg',
+    image: '/images/certificates/ssoc.jpg',
     url: '',
   },
 ]
